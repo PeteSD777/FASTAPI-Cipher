@@ -102,7 +102,7 @@ async def decode_phrase(phrase_id: int):
 
 
 @ app.delete('/delete/{phrase_id}')
-def delete_city(phrase_id: int):
+def delete_phrase(phrase_id: int):
     del db[phrase_id-1]
     return {}
 
