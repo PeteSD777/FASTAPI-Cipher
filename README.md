@@ -1,5 +1,5 @@
 # Fastapi-cipher
-RestApi made with FASTAPI, that allows for operations of encoding and decoding phrases
+Made with FASTAPI, that allows for operations of encoding and decoding phrases
 
 Fastapi-cipher has been created to encode and decode phrases by calling FastAPI docs route and by calling endpoints inside the browser.
 Fastapi-cipher uses python FastAPI framework to provide endpoints for requests. This project also uses python cryptography library, to ensure more security when encoding.
